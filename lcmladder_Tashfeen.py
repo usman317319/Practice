@@ -4,7 +4,7 @@ def lcm(a, b):
     divisor = 2
     isinstance (num1, int) and isinstance (num2, int)
     while num1 != 1 or num2 != 1:
-        if num1 % divisor == 0 or num2 % divisor == 0:
+        if num1 % divisor == 0 and num2 % divisor == 0:
             factors.append(divisor)
             if num1 % divisor == 0:
                 num1 = num1 // divisor
